@@ -1,0 +1,26 @@
+{
+  "name": "najah-association",
+  "private": true,
+  "version": "1.0.0",
+  "description": "موقع جمعية النجاح الثقافية - SPA حديثة + خادم Express + قاعدة بيانات SQLite",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "concurrently -n SERVER,CLIENT -c blue,magenta \"npm run dev -w server\" \"npm run dev -w client\"",
+    "build": "npm run build -w client",
+    "start": "npm run start -w server",
+    "reset-data": "npm run reset-data -w server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "playwright-core": "^1.63.0"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "allowScripts": {
+    "esbuild@0.21.5": true
+  }
+}

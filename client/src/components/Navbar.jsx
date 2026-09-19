@@ -20,7 +20,7 @@ export default function Navbar() {
       <div className="container nav-inner">
         <Link to="/" className="nav-brand" onClick={() => setOpen(false)}>
           <img src="/favicon.svg" alt="شعار الجمعية" className="mark" />
-          <span>{meta?.site_name || "جمعية النجاح الثقافية"}</span>
+          <span>{meta?.site_name || "جمعية النجاح"}</span>
         </Link>
 
         <nav className="nav-links">

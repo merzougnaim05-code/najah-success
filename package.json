@@ -2,7 +2,7 @@
   "name": "najah-association",
   "private": true,
   "version": "1.0.0",
-  "description": "موقع جمعية النجاح الثقافية - SPA حديثة + خادم Express + قاعدة بيانات SQLite",
+  "description": "موقع جمعية النجاح - SPA حديثة + خادم Express + قاعدة بيانات SQLite",
   "workspaces": [
     "server",
     "client"

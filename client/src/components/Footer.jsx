@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer-grid">
         <div>
-          <h4>{meta?.site_name || "جمعية النجاح الثقافية"}</h4>
+          <h4>{meta?.site_name || "جمعية النجاح"}</h4>
           <p>{meta?.about || ""}</p>
         </div>
         <div>
@@ -27,7 +27,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        جميع الحقوق محفوظة © {new Date().getFullYear()} {meta?.site_name || "جمعية النجاح الثقافية"} — {meta?.tagline || ""}
+        جميع الحقوق محفوظة © {new Date().getFullYear()} {meta?.site_name || "جمعية النجاح"} — {meta?.tagline || ""}
       </div>
     </footer>
   );

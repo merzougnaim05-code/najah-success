@@ -61,7 +61,7 @@ export default function TeachersAdmin() {
   return (
     <>
       <div className="card" style={{ padding: 14, marginBottom: 14 }}>
-        <h3 style={{ margin: "2px 2px 10px", color: "var(--maroon-2)", fontSize: 15 }}>➕ إضافة أستاذ جديد</h3>
+        <h3 style={{ margin: "2px 2px 10px", color: "var(--violet)", fontSize: 15 }}>➕ إضافة أستاذ جديد</h3>
         <div className="tform" style={{ padding: 0 }}>
           <input placeholder="اسم الأستاذ (مثال: أ. محمد بن علي)" value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} />
           <select value={form.level} onChange={(e) => setForm({ ...form, level: e.target.value })}>

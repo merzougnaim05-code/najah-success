@@ -19,7 +19,7 @@ export default function Home() {
         <div className="container hero-grid">
           <div>
             <span className="ribbon">التسجيل متاح الآن</span>
-            <h1>{meta?.site_name || "جمعية النجاح الثقافية"}</h1>
+            <h1>{meta?.site_name || "جمعية النجاح"}</h1>
             <p className="tagline">{meta?.tagline || "معًا نحو مستقبل أفضل لأبنائنا"}</p>
             <div className="underline" />
             <p className="lead">
@@ -87,9 +87,9 @@ export default function Home() {
       </div>
 
       <div className="container section">
-        <div className="card" style={{ background: "linear-gradient(120deg, var(--maroon-2), var(--maroon))", borderRadius: "var(--r-lg)", padding: 34, textAlign: "center", color: "#fff", position: "relative", overflow: "hidden" }}>
+        <div className="card" style={{ background: "linear-gradient(120deg, var(--violet-2), var(--violet), var(--fuchsia))", borderRadius: "var(--r-lg)", padding: 34, textAlign: "center", color: "#fff", position: "relative", overflow: "hidden", boxShadow: "var(--shadow-lg)" }}>
           <div style={{ fontSize: 15, fontWeight: 900, marginBottom: 6 }}>هل أنت مستعد للانطلاق؟</div>
-          <p style={{ color: "#f0d9b8", marginBottom: 18, fontSize: 13.5 }}>
+          <p style={{ color: "#fde8f1", marginBottom: 18, fontSize: 13.5 }}>
             سجّل طلبك الآن وسيتواصل معك فريق الجمعية خلال وقت قصير.
           </p>
           <Link to="/register" className="btn btn-gold" style={{ margin: "0 auto" }}>

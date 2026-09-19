@@ -33,7 +33,7 @@ export default function Login() {
           <div style={{ textAlign: "center" }}>
             <img src="/favicon.svg" alt="الشعار" style={{ width: 72, height: 72 }} />
             <h2 style={{ marginTop: 8 }}>دخول الإدارة</h2>
-            <p className="sub">لمسؤولي جمعية النجاح الثقافية فقط</p>
+            <p className="sub">لمسؤولي جمعية النجاح فقط</p>
           </div>
           {error && <div className="notice" style={{ background: "var(--red-soft)", borderColor: "#f3b9c0", color: "#a3222f" }}>{error}</div>}
           <form onSubmit={submit}>

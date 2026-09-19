@@ -76,7 +76,7 @@ export default function Register() {
           <p style={{ color: "var(--muted)", margin: "8px 0 4px" }}>
             احتفظ برقم المرجع الخاص بك لمتابعة حالة الطلب:
           </p>
-          <div style={{ fontSize: 26, fontWeight: 900, color: "var(--maroon-3)", margin: "8px 0 14px", letterSpacing: 1 }}>
+          <div style={{ fontSize: 26, fontWeight: 900, color: "var(--violet)", margin: "8px 0 14px", letterSpacing: 1 }}>
             {result.ref}
           </div>
           <p className="notice" style={{ textAlign: "right" }}>
@@ -164,7 +164,7 @@ export default function Register() {
 
         <div>
           <div className="card pad card-hover">
-            <b style={{ color: "var(--maroon-2)", fontSize: 15.5 }}>كيف تتم العملية؟</b>
+            <b style={{ color: "var(--violet)", fontSize: 15.5 }}>كيف تتم العملية؟</b>
             <div className="kv" style={{ marginTop: 10 }}>
               <div>1️⃣ عبّئ استمارة الطلب بالمعلومات المطلوبة.</div>
               <div>2️⃣ اختر الطور والمادة والأستاذ والتوقيت المناسب.</div>
@@ -172,9 +172,9 @@ export default function Register() {
               <div>4️⃣ تابع حالة طلبك من صفحة <b>تتبع طلبك</b> أو انتظر اتصال الجمعية.</div>
             </div>
           </div>
-          <div className="card pad card-hover" style={{ marginTop: 14, background: "var(--gold-soft)", borderColor: "#f0d693" }}>
-            <b style={{ color: "#7a5a0b" }}>للتذكير</b>
-            <p style={{ fontSize: 13, color: "#7a5a0b", marginTop: 6, lineHeight: 1.9 }}>
+          <div className="card pad card-hover" style={{ marginTop: 14, background: "var(--amber-soft)", borderColor: "#fde68a" }}>
+            <b style={{ color: "#92400e" }}>للتذكير</b>
+            <p style={{ fontSize: 13, color: "#92400e", marginTop: 6, lineHeight: 1.9 }}>
               يمكنكم زيارة صفحة <Link to="/teachers" style={{ textDecoration: "underline", fontWeight: 700 }}>الأساتذة</Link> للتعرف على كامل التشكيلة قبل التسجيل.
             </p>
           </div>

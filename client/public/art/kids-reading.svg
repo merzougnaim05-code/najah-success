@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6EC9FF"/>
+      <stop offset="1" stop-color="#EAF9FF"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#82DF5E"/>
+      <stop offset="1" stop-color="#46B93D"/>
+    </linearGradient>
+    <g id="cloud">
+      <ellipse cx="30" cy="22" rx="26" ry="16" fill="#ffffff"/>
+      <ellipse cx="55" cy="13" rx="22" ry="18" fill="#ffffff"/>
+      <ellipse cx="78" cy="22" rx="24" ry="15" fill="#ffffff"/>
+      <rect x="8" y="20" width="82" height="22" rx="11" fill="#ffffff"/>
+    </g>
+    <g id="star">
+      <path d="M0 -12 L3 -3 L12 0 L3 3 L0 12 L-3 3 L-12 0 L-3 -3 Z" fill="#FFD93D"/>
+    </g>
+  </defs>
+
+  <!-- sky -->
+  <rect width="640" height="480" fill="url(#sky)"/>
+
+  <!-- sun with face -->
+  <g transform="translate(552,86)">
+    <circle r="38" fill="#FFDF60" opacity="0.55"/>
+    <circle r="27" fill="#FFD93D"/>
+    <line x1="0" y1="-40" x2="0" y2="-52" stroke="#FFD93D" stroke-width="7" stroke-linecap="round"/>
+    <line x1="0" y1="40" x2="0" y2="52" stroke="#FFD93D" stroke-width="7" stroke-linecap="round"/>
+    <line x1="-40" y1="0" x2="-52" y2="0" stroke="#FFD93D" stroke-width="7" stroke-linecap="round"/>
+    <line x1="40" y1="0" x2="52" y2="0" stroke="#FFD93D" stroke-width="7" stroke-linecap="round"/>
+    <line x1="-29" y1="-29" x2="-38" y2="-38" stroke="#FFD93D" stroke-width="7" stroke-linecap="round"/>
+    <line x1="29" y1="-29" x2="38" y2="-38" stroke="#FFD93D" stroke-width="7" stroke-linecap="round"/>
+    <line x1="-29" y1="29" x2="-38" y2="38" stroke="#FFD93D" stroke-width="7" stroke-linecap="round"/>
+    <line x1="29" y1="29" x2="38" y2="38" stroke="#FFD93D" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="-9" cy="-5" r="3.4" fill="#C77700"/>
+    <circle cx="9" cy="-5" r="3.4" fill="#C77700"/>
+    <path d="M -11 6 Q 0 15 11 6" stroke="#C77700" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <circle cx="-15" cy="3" r="3.2" fill="#FFB37A" opacity="0.85"/>
+    <circle cx="15" cy="3" r="3.2" fill="#FFB37A" opacity="0.85"/>
+  </g>
+
+  <!-- clouds -->
+  <use href="#cloud" transform="translate(70,52) scale(0.9)"/>
+  <use href="#cloud" transform="translate(355,34) scale(0.72)"/>
+  <use href="#cloud" transform="translate(520,120) scale(0.55)"/>
+  <use href="#cloud" transform="translate(180,18) scale(0.45)"/>
+
+  <!-- stars -->
+  <use href="#star" transform="translate(250,90) scale(1.1)"/>
+  <use href="#star" transform="translate(300,150) scale(0.8)"/>
+  <use href="#star" transform="translate(430,60) scale(0.95)"/>
+  <use href="#star" transform="translate(150,150) scale(0.7)"/>
+
+  <!-- flying balloons -->
+  <g transform="translate(70,250)">
+    <path d="M28 66 Q28 98 28 108" stroke="#8d8d8d" stroke-width="2" fill="none"/>
+    <path d="M28 34 Q44 78 28 66 Q12 78 28 34" fill="#FF6F8B"/>
+    <rect x="18" y="0" width="20" height="12" rx="4" fill="#FF5A78"/>
+  </g>
+  <g transform="translate(585,230) scale(0.85)">
+    <path d="M28 66 Q28 98 28 108" stroke="#8d8d8d" stroke-width="2" fill="none"/>
+    <path d="M28 34 Q44 78 28 66 Q12 78 28 34" fill="#35D0BA"/>
+    <rect x="18" y="0" width="20" height="12" rx="4" fill="#2BBAA6"/>
+  </g>
+
+  <!-- grass hills -->
+  <ellipse cx="10" cy="470" rx="360" ry="150" fill="#82DF5E"/>
+  <ellipse cx="620" cy="480" rx="380" ry="160" fill="#66CF53"/>
+  <rect y="440" width="640" height="60" fill="url(#grass)"/>
+
+  <!-- flowers -->
+  <g transform="translate(60,415)">
+    <line x1="0" y1="0" x2="0" y2="22" stroke="#46B93D" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="0" cy="-4" r="9" fill="#FF6F8B"/>
+    <circle cx="0" cy="-4" r="4" fill="#FFD93D"/>
+  </g>
+  <g transform="translate(592,430) scale(0.85)">
+    <line x1="0" y1="0" x2="0" y2="22" stroke="#46B93D" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="0" cy="-4" r="9" fill="#B388FF"/>
+    <circle cx="0" cy="-4" r="4" fill="#FFF176"/>
+  </g>
+
+  <!-- pencils -->
+  <g transform="translate(40,470) rotate(-14)">
+    <rect x="0" y="0" width="14" height="70" rx="4" fill="#FFD93D"/>
+    <rect x="3" y="0" width="8" height="70" fill="#FFE97A"/>
+    <path d="M2 -10 L7 -28 L12 -10 Z" fill="#FF9F1C"/>
+    <path d="M4 -10 L7 -20 L10 -10 Z" fill="#FF7043"/>
+    <rect x="2" y="70" width="10" height="14" rx="4" fill="#FF5A78"/>
+  </g>
+
+  <!-- small books stack (back) -->
+  <g transform="translate(560,385) rotate(6)">
+    <rect x="-35" y="22" width="100" height="22" rx="8" fill="#2196F3"/>
+    <rect x="-28" y="2" width="88" height="20" rx="8" fill="#FFA726"/>
+    <rect x="-20" y="-16" width="76" height="18" rx="8" fill="#66BB6A"/>
+    <rect x="-14" y="-14" width="10" height="12" rx="3" fill="#E3F2FD" opacity="0.7"/>
+  </g>
+
+  <!-- boy (left) reading -->
+  <g>
+    <rect x="92" y="395" width="34" height="14" rx="7" fill="#216FB4"/>
+    <rect x="130" y="398" width="36" height="14" rx="7" fill="#216FB4"/>
+    <rect x="96" y="335" width="84" height="76" rx="28" fill="#FF7043"/>
+    <rect x="96" y="335" width="84" height="14" rx="7" fill="#FF8A65"/>
+    <circle cx="138" cy="268" r="36" fill="#B5651D"/>
+    <path d="M96 268 A 44 40 0 0 1 180 268 L 180 252 A 44 36 0 0 0 96 252 Z" fill="#8A4B1E"/>
+    <circle cx="150" cy="280" r="29" fill="#FFE0B8"/>
+    <circle cx="120" cy="262" r="9" fill="#8A4B1E"/>
+    <path d="M110 288 Q 114 296 122 295 M130 295 Q 133 300 140 298" stroke="#8A4B1E" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+    <circle cx="141" cy="276" r="3.4" fill="#3E2A17"/>
+    <circle cx="161" cy="276" r="3.4" fill="#3E2A17"/>
+    <path d="M144 289 Q 151 294 158 289" stroke="#3E2A17" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+    <circle cx="135" cy="285" r="3" fill="#FFB37A" opacity="0.9"/>
+    <circle cx="167" cy="285" r="3" fill="#FFB37A" opacity="0.9"/>
+    <path d="M112 315 Q 205 345 258 355" stroke="#FF7043" stroke-width="20" stroke-linecap="round" fill="none"/>
+    <path d="M120 322 Q 205 348 250 356" stroke="#FFE0B8" stroke-width="16" stroke-linecap="round" fill="none"/>
+    <circle cx="256" cy="357" r="11" fill="#FFE0B8"/>
+  </g>
+
+  <!-- girl (right) reading -->
+  <g>
+    <rect x="520" y="390" width="34" height="14" rx="7" fill="#E13E62"/>
+    <rect x="486" y="395" width="38" height="14" rx="7" fill="#E13E62"/>
+    <rect x="466" y="336" width="84" height="78" rx="28" fill="#35C2EE"/>
+    <rect x="466" y="336" width="84" height="14" rx="7" fill="#62D2F5"/>
+    <circle cx="504" cy="268" r="35" fill="#3E2A17"/>
+    <circle cx="498" cy="280" r="30" fill="#FFE0B8"/>
+    <path d="M520 240 Q 560 246 556 284 L 548 284 Q 548 252 520 246 Z" fill="#3E2A17"/>
+    <rect x="553" y="252" width="22" height="34" rx="12" fill="#3E2A17"/>
+    <circle cx="562" cy="288" r="11" fill="#3E2A17"/>
+    <circle cx="489" cy="276" r="3.4" fill="#3E2A17"/>
+    <circle cx="509" cy="276" r="3.4" fill="#3E2A17"/>
+    <path d="M491 290 Q 499 295 507 290" stroke="#3E2A17" stroke-width="2.6" fill="none" stroke-linecap="round"/>
+    <circle cx="483" cy="285" r="3" fill="#FFB37A" opacity="0.9"/>
+    <circle cx="516" cy="285" r="3" fill="#FFB37A" opacity="0.9"/>
+    <path d="M534 316 Q 455 346 396 356" stroke="#35C2EE" stroke-width="20" stroke-linecap="round" fill="none"/>
+    <path d="M528 323 Q 455 348 396 356" stroke="#FFE0B8" stroke-width="16" stroke-linecap="round" fill="none"/>
+    <circle cx="392" cy="358" r="11" fill="#FFE0B8"/>
+  </g>
+
+  <!-- open book between kids -->
+  <g>
+    <rect x="182" y="418" width="276" height="20" rx="10" fill="#FF5F7E"/>
+    <path d="M320 322 L196 340 L196 420 L320 404 Z" fill="#ffffff" stroke="#CFE0F0" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M320 322 L444 340 L444 420 L320 404 Z" fill="#ffffff" stroke="#CFE0F0" stroke-width="3" stroke-linejoin="round"/>
+    <line x1="320" y1="322" x2="320" y2="404" stroke="#CFE0F0" stroke-width="4"/>
+    <rect x="212" y="352" width="58" height="7" rx="3.5" fill="#CDD9E8"/>
+    <rect x="212" y="368" width="74" height="7" rx="3.5" fill="#CDD9E8"/>
+    <rect x="212" y="384" width="44" height="7" rx="3.5" fill="#CDD9E8"/>
+    <rect x="368" y="352" width="50" height="7" rx="3.5" fill="#CDD9E8"/>
+    <rect x="368" y="368" width="72" height="7" rx="3.5" fill="#CDD9E8"/>
+    <rect x="368" y="384" width="40" height="7" rx="3.5" fill="#CDD9E8"/>
+    <use href="#star" transform="translate(262,360) scale(0.7)"/>
+    <circle cx="396" cy="362" r="8" fill="#8BC34A"/>
+  </g>
+</svg>

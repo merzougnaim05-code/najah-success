@@ -54,7 +54,7 @@ export default function Contact() {
 
         <div>
           <div className="card pad card-hover">
-            <b style={{ color: "var(--violet)", fontSize: 15.5 }}>معلومات التواصل</b>
+            <b style={{ color: "var(--sky-2)", fontSize: 15.5 }}>معلومات التواصل</b>
             <div className="kv" style={{ marginTop: 12 }}>
               <div>📞 الهاتف: <b>{meta?.phone || "-"}</b></div>
               <div>✉️ البريد الإلكتروني: <b dir="ltr" style={{ unicodeBidi: "embed" }}>{meta?.email || "-"}</b></div>
@@ -62,9 +62,9 @@ export default function Contact() {
               <div>⏰ أوقات العمل: من السبت إلى الخميس، 08:00 – 20:00</div>
             </div>
           </div>
-          <div className="card pad" style={{ marginTop: 14, background: "linear-gradient(160deg, var(--violet), var(--violet-2))", color: "#fff" }}>
+          <div className="card pad" style={{ marginTop: 14, background: "linear-gradient(160deg, var(--sky), var(--sky-2))", color: "#fff" }}>
             <b style={{ fontSize: 15 }}>نصيحة سريعة</b>
-            <p style={{ fontSize: 13, color: "#e9d5ff", marginTop: 6, lineHeight: 1.9 }}>
+            <p style={{ fontSize: 13, color: "#e6f7ff", marginTop: 6, lineHeight: 1.9 }}>
               لإرسال طلب التسجيل في الدروس، استخدم صفحة <a href="/register" style={{ fontWeight: 800, textDecoration: "underline" }}>التسجيل</a> مباشرة،
               واحتفظ برقم المرجع لتدوم على اطلاع بحالة طلبك.
             </p>

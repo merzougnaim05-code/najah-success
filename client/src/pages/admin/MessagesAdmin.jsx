@@ -30,7 +30,7 @@ export default function MessagesAdmin() {
   return (
     <>
       <div className="card" style={{ padding: 13, marginBottom: 13, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-        <b style={{ color: "var(--violet)" }}>✉️ رسائل الزوار ({messages.length})</b>
+        <b style={{ color: "var(--coral-2)" }}>✉️ رسائل الزوار ({messages.length})</b>
         <button className="btn btn-ghost btn-sm" onClick={load}>تحديث</button>
       </div>
 
@@ -40,7 +40,7 @@ export default function MessagesAdmin() {
             <div className="card pad card-hover" key={m.id}>
               <div style={{ display: "flex", justifyContent: "space-between", gap: 10, alignItems: "flex-start" }}>
                 <div>
-                  <b style={{ color: "var(--violet)" }}>{m.name}</b>
+                  <b style={{ color: "var(--coral-2)" }}>{m.name}</b>
                   {m.phone && <div style={{ fontSize: 12, color: "var(--muted)" }} dir="ltr" align="right">{m.phone}</div>}
                   <p style={{ fontSize: 13.5, marginTop: 8, lineHeight: 1.9 }}>{m.message}</p>
                   <div style={{ fontSize: 11.5, color: "var(--muted)", marginTop: 6 }}>{m.created_at}</div>

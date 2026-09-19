@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 import { useApp } from "../context/AppContext";
 
 const FEATURES = [
-  { ic: "★", t: "أساتذة مؤهلون", s: "خبرة وكفاءة في التدريس" },
-  { ic: "👥", t: "جميع الأطوار", s: "ابتدائي · متوسط · ثانوي" },
-  { ic: "◎", t: "جميع اللغات", s: "عربية · فرنسية · إنجليزية" },
-  { ic: "▣", t: "مختلف المواد", s: "رياضيات · علوم · لغات" },
-  { ic: "♥", t: "متابعة مستمرة", s: "تنظيم ومتابعة دورية" },
-  { ic: "✓", t: "تتبع الطلبات", s: "تابع حالة طلبك أونلاين" },
+  { ic: "🧑‍🏫", t: "أساتذة مؤهلون", s: "خبرة وكفاءة في التدريس" },
+  { ic: "🧒", t: "جميع الأطوار", s: "ابتدائي · متوسط · ثانوي" },
+  { ic: "🗣️", t: "جميع اللغات", s: "عربية · فرنسية · إنجليزية" },
+  { ic: "📚", t: "مختلف المواد", s: "رياضيات · علوم · لغات" },
+  { ic: "📈", t: "متابعة مستمرة", s: "تنظيم ومتابعة دورية" },
+  { ic: "🔍", t: "تتبع الطلبات", s: "تابع حالة طلبك أونلاين" },
 ];
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
       <section className="hero">
         <div className="container hero-grid">
           <div>
-            <span className="ribbon">التسجيل متاح الآن</span>
+            <span className="ribbon">📣 التسجيل متاح الآن</span>
             <h1>{meta?.site_name || "جمعية النجاح"}</h1>
             <p className="tagline">{meta?.tagline || "معًا نحو مستقبل أفضل لأبنائنا"}</p>
             <div className="underline" />
@@ -28,17 +28,21 @@ export default function Home() {
             </p>
             <div className="hero-actions">
               <Link to="/register" className="btn btn-primary">
-                سجّل الآن في الدروس
+                🚀 سجّل الآن في الدروس
               </Link>
               <Link to="/teachers" className="btn btn-outline">
-                استكشف الأساتذة
+                👨‍🏫 استكشف الأساتذة
               </Link>
             </div>
           </div>
 
           <div className="hero-art">
             <div className="halo" />
-            <img src="/favicon.svg" alt="شعار الجمعية" className="logo-mark" />
+            <img src="/art/kids-reading.svg" alt="أطفال يقرؤون كتابًا" className="kids-img" />
+            <span className="emoji-deco" style={{ top: "4%", right: "6%" }}>⭐</span>
+            <span className="emoji-deco" style={{ bottom: "10%", left: "4%", animationDelay: "1.2s" }}>🎈</span>
+            <span className="emoji-deco" style={{ top: "18%", left: "8%", animationDelay: "0.6s" }}>📚</span>
+            <span className="emoji-deco" style={{ bottom: "24%", right: "10%", animationDelay: "0.3s" }}>✏️</span>
           </div>
         </div>
       </section>
@@ -58,15 +62,15 @@ export default function Home() {
 
         <div className="trust">
           <div className="trust-item">
-            <div className="ic">☎</div>
+            <div className="ic">☎️</div>
             <div><b>دعم دائم</b><span>على مدار الأسبوع</span></div>
           </div>
           <div className="trust-item">
-            <div className="ic">✓</div>
+            <div className="ic">✅</div>
             <div><b>متابعة موثوقة</b><span>لحالة كل طلب</span></div>
           </div>
           <div className="trust-item">
-            <div className="ic">🔒</div>
+            <div className="ic">🛡️</div>
             <div><b>آمن وسهل</b><span>في الاستعمال</span></div>
           </div>
         </div>
@@ -77,7 +81,8 @@ export default function Home() {
           <h2>لماذا جمعية النجاح؟</h2>
           <div className="underline" />
         </div>
-        <div className="card pad" style={{ lineHeight: 2, color: "var(--muted)", fontSize: 14.5 }}>
+        <div className="card pad cartoon-panel" style={{ lineHeight: 2, color: "var(--muted)", fontSize: 14.5 }}>
+          <img src="/art/books.svg" alt="" className="books-float" />
           <p>
             نعمل على توفير فضاء تربوي وثقافي منظم يساعد التلاميذ على تحسين مستواهم، مع إمكانية
             اختيار الطور والمادة والأستاذ والتوقيت، ثم متابعة حالة الطلب عبر منصتنا وبصورة مباشرة
@@ -87,13 +92,14 @@ export default function Home() {
       </div>
 
       <div className="container section">
-        <div className="card" style={{ background: "linear-gradient(120deg, var(--violet-2), var(--violet), var(--fuchsia))", borderRadius: "var(--r-lg)", padding: 34, textAlign: "center", color: "#fff", position: "relative", overflow: "hidden", boxShadow: "var(--shadow-lg)" }}>
-          <div style={{ fontSize: 15, fontWeight: 900, marginBottom: 6 }}>هل أنت مستعد للانطلاق؟</div>
-          <p style={{ color: "#fde8f1", marginBottom: 18, fontSize: 13.5 }}>
+        <div className="card cartoon-panel" style={{ background: "linear-gradient(120deg, var(--sky-2), var(--sky), var(--skyblue))", borderRadius: "var(--r-lg)", padding: 34, textAlign: "center", color: "#fff", position: "relative", overflow: "hidden", boxShadow: "var(--shadow-lg)" }}>
+          <img src="/art/rocket.svg" alt="" className="rocket-float" />
+          <div style={{ fontSize: 15, fontWeight: 900, marginBottom: 6 }}>🚀 هل أنت مستعد للانطلاق؟</div>
+          <p style={{ color: "#e6f7ff", marginBottom: 18, fontSize: 13.5 }}>
             سجّل طلبك الآن وسيتواصل معك فريق الجمعية خلال وقت قصير.
           </p>
           <Link to="/register" className="btn btn-gold" style={{ margin: "0 auto" }}>
-            ابدأ التسجيل الآن
+            🎉 ابدأ التسجيل الآن
           </Link>
         </div>
       </div>

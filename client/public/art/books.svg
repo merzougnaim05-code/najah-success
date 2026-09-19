@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200">
+  <defs>
+    <g id="spark">
+      <path d="M0 -14 L3 -4 L13 0 L3 4 L0 14 L-3 4 L-13 0 L-3 -4 Z" fill="#FFD93D"/>
+    </g>
+  </defs>
+
+  <!-- leaning stack -->
+  <g>
+    <use href="#spark" transform="translate(205,28) scale(0.9)"/>
+    <use href="#spark" transform="translate(25,34) scale(0.65)"/>
+    <g transform="rotate(-8 140 160)">
+      <rect x="38" y="138" width="150" height="26" rx="9" fill="#2196F3"/>
+      <rect x="38" y="138" width="40" height="26" rx="9" fill="#1976D2"/>
+      <rect x="52" y="130" width="120" height="10" rx="5" fill="#E3F2FD" opacity="0.75"/>
+    </g>
+    <g transform="rotate(5 120 120)">
+      <rect x="55" y="108" width="140" height="28" rx="9" fill="#FFA726"/>
+      <rect x="55" y="108" width="42" height="28" rx="9" fill="#F57C00"/>
+      <rect x="70" y="99" width="112" height="10" rx="5" fill="#FFF8E1" opacity="0.8"/>
+    </g>
+    <g transform="rotate(-12 110 80)">
+      <rect x="72" y="76" width="136" height="30" rx="9" fill="#7E57C2"/>
+      <rect x="72" y="76" width="44" height="30" rx="9" fill="#5E35B1"/>
+      <rect x="88" y="66" width="104" height="11" rx="5.5" fill="#EDE7F6" opacity="0.8"/>
+    </g>
+    <!-- tassel on top book -->
+    <g transform="rotate(-12 110 80)">
+      <path d="M60 120 Q64 136 60 148" stroke="#5E35B1" stroke-width="5" stroke-linecap="round" fill="none"/>
+    </g>
+  </g>
+
+  <!-- pencil standing -->
+  <g transform="translate(196,96) rotate(38)">
+    <rect x="0" y="0" width="14" height="74" rx="5" fill="#FFD93D"/>
+    <rect x="3" y="0" width="8" height="74" fill="#FFE97A"/>
+    <path d="M3 -12 L7 -30 L11 -12 Z" fill="#FF9F1C"/>
+    <path d="M5 -12 L7 -21 L9 -12 Z" fill="#FF7043"/>
+    <rect x="2" y="74" width="10" height="15" rx="5" fill="#FF5A78"/>
+  </g>
+
+  <!-- mug of pencils -->
+  <g>
+    <path d="M24 150 L24 116 Q30 108 46 108 Q62 108 68 116 L68 150 Z" fill="#FFBCD1"/>
+    <rect x="20" y="150" width="52" height="8" rx="4" fill="#EF9CB6"/>
+    <line x1="30" y1="114" x2="30" y2="80" stroke="#8BC34A" stroke-width="6" stroke-linecap="round"/>
+    <line x1="46" y1="112" x2="46" y2="66" stroke="#FFD93D" stroke-width="6" stroke-linecap="round"/>
+    <line x1="60" y1="114" x2="60" y2="86" stroke="#2196F3" stroke-width="6" stroke-linecap="round"/>
+    <path d="M28 82 Q22 76 28 70 M44 68 Q38 62 44 56 M58 88 Q52 82 58 76" stroke="#FF5A78" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <circle cx="27" cy="6" r="5" fill="#FFD93D"/>
+  </g>
+</svg>

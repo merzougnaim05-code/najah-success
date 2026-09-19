@@ -15,7 +15,7 @@ export default function AdminLayout() {
     <div className="container page">
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 12, flexWrap: "wrap", marginBottom: 16 }}>
         <div>
-          <h2 style={{ color: "var(--violet)", fontWeight: 900, fontSize: 23 }}>لوحة تحكم {meta?.site_name || "الجمعية"}</h2>
+          <h2 style={{ color: "var(--sky-2)", fontWeight: 900, fontSize: 23 }}>لوحة تحكم {meta?.site_name || "الجمعية"}</h2>
           <p style={{ color: "var(--muted)", fontSize: 13 }}>مرحبًا، {user?.username}</p>
         </div>
         <div style={{ display: "flex", gap: 8 }}>

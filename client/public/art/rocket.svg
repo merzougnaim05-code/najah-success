@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 230">
+  <defs>
+    <g id="spark">
+      <path d="M0 -12 L3 -3 L12 0 L3 3 L0 12 L-3 3 L-12 0 L-3 -3 Z" fill="#FFD93D"/>
+    </g>
+  </defs>
+
+  <!-- stars -->
+  <use href="#spark" transform="translate(26,36) scale(1)"/>
+  <use href="#spark" transform="translate(214,54) scale(0.8)"/>
+  <use href="#spark" transform="translate(48,150) scale(0.7)"/>
+  <use href="#spark" transform="translate(196,180) scale(0.9)"/>
+
+  <!-- rocket body -->
+  <path d="M120 4 C 160 58 168 132 156 168 L 84 168 C 72 132 80 58 120 4 Z" fill="#FD7E86"/>
+  <path d="M120 4 C 130 26 138 42 144 60 L 96 60 C 102 42 110 26 120 4 Z" fill="#FFA8AE"/>
+  <!-- window -->
+  <circle cx="120" cy="104" r="32" fill="#ffffff" stroke="#F4E0E0" stroke-width="4"/>
+  <circle cx="120" cy="100" r="8" fill="#33364D"/>
+  <path d="M104 126 Q 120 140 136 126" stroke="#33364D" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- fins -->
+  <path d="M84 128 L50 184 L92 176 Z" fill="#5B8DEF"/>
+  <path d="M156 128 L190 184 L148 176 Z" fill="#5B8DEF"/>
+  <!-- flame -->
+  <path d="M78 166 Q 66 210 92 196 Q 100 220 112 196 Q 122 224 132 192 Q 152 208 162 168 Z" fill="#FFB020"/>
+  <path d="M94 170 Q 88 200 104 190 Q 112 206 120 188 Q 132 204 142 182 Q 150 202 156 172 Z" fill="#FFD93D"/>
+  <!-- rivets -->
+  <circle cx="90" cy="70" r="4" fill="#FFA8AE"/>
+  <circle cx="150" cy="70" r="4" fill="#FFA8AE"/>
+  <circle cx="82" cy="150" r="4" fill="#FFA8AE"/>
+  <circle cx="158" cy="150" r="4" fill="#FFA8AE"/>
+</svg>

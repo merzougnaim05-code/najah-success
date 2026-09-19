@@ -76,7 +76,7 @@ export default function Register() {
           <p style={{ color: "var(--muted)", margin: "8px 0 4px" }}>
             احتفظ برقم المرجع الخاص بك لمتابعة حالة الطلب:
           </p>
-          <div style={{ fontSize: 26, fontWeight: 900, color: "var(--violet)", margin: "8px 0 14px", letterSpacing: 1 }}>
+          <div style={{ fontSize: 26, fontWeight: 900, color: "var(--coral-2)", margin: "8px 0 14px", letterSpacing: 1 }}>
             {result.ref}
           </div>
           <p className="notice" style={{ textAlign: "right" }}>
@@ -164,7 +164,7 @@ export default function Register() {
 
         <div>
           <div className="card pad card-hover">
-            <b style={{ color: "var(--violet)", fontSize: 15.5 }}>كيف تتم العملية؟</b>
+            <b style={{ color: "var(--coral-2)", fontSize: 15.5 }}>كيف تتم العملية؟</b>
             <div className="kv" style={{ marginTop: 10 }}>
               <div>1️⃣ عبّئ استمارة الطلب بالمعلومات المطلوبة.</div>
               <div>2️⃣ اختر الطور والمادة والأستاذ والتوقيت المناسب.</div>
